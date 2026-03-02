@@ -1,0 +1,13 @@
+[
+  {
+    "name": "general",
+    "settings": [
+      {
+        "type": "text",
+        "id": "store_name",
+        "label": "Store name",
+        "default": "My Store"
+      }
+    ]
+  }
+]
