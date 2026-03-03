@@ -1,0 +1,22 @@
+.button {
+  background-color: #1E40AF;
+  border-color: #3B82F6;
+}
+
+.button:hover {
+  background-color: #3B82F6;
+}
+
+.link {
+  color: #1E40AF;
+}
+
+.link:hover {
+  color: #F59E0B;
+}
+
+.ui-element {
+  border-color: #3B82F6;
+  background-color: #F59E0B;
+}
+/* Add further updates for specific colors here */
