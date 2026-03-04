@@ -1,13 +1,1 @@
-[
-  {
-    "name": "general",
-    "settings": [
-      {
-        "type": "text",
-        "id": "store_name",
-        "label": "Store name",
-        "default": "My Store"
-      }
-    ]
-  }
-]
+{"name":"Theme Settings","settings":[{"type":"header","content":"Colors"},{"type":"color","id":"background_color","label":"Background Color","default":"#ffffff"},{"type":"color","id":"text_color","label":"Text Color","default":"#000000"},{"type":"header","content":"Fonts"},{"type":"font","id":"font_family","label":"Font Family","default":"Arial, sans-serif"},{"type":"header","content":"Sections"},{"type":"checkbox","id":"show_header","label":"Show Header","default":true},{"type":"checkbox","id":"show_footer","label":"Show Footer","default":true}]}
