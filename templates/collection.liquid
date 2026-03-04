@@ -1,0 +1,14 @@
+{% extends "layouts/default" %}
+
+{% block content %}
+  <div class="collection-grid">
+    {% for product in collection.products %}
+      <div class="product-card">
+        <h2>{{ product.name }}</h2>
+        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+        <p>{{ product.price | currency }}</p>
+        <a href="{{ product.url }}">View Product</a>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
