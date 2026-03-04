@@ -1,0 +1,14 @@
+<!-- Featured Products Section -->
+<section class="featured-products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+        {{#foreach products}}
+            <div class="product-card">
+                <img src="{{this.image}}" alt="{{this.name}}">
+                <h3>{{this.name}}</h3>
+                <p>{{this.price}}</p>
+                <a href="{{this.url}}" class="btn">View Product</a>
+            </div>
+        {{/foreach}}
+    </div>
+</section>
